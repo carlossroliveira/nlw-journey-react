@@ -1,30 +1,64 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  NLW Journey (React)
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+  <img src="./public/pro.png" alt="Capa do projeto" />
+</p>
 
-Currently, two official plugins are available:
+<h4 align="center"> 
+	🚀 Aplicação finalizada 🚀
+</h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 About
 
-## Expanding the ESLint configuration
+Esta aplicação de nome **Plann.er** consiste em um site desktop para montar planos de viagem com amigos, registrar atividades e links úteis.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+### Cloning and Running
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Passo a passo para clonar e executar a aplicação na sua máquina:
+
+```bash
+$ yarn install
+or
+$ npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+# Run Project
+$ yarn dev
+or
+$ npm run dev
+
+```
+
+## 🛠 Technologies
+
+As seguintes principais ferramentas foram usadas na construção do projeto:
+
+- **[React + Vite](https://vitejs.dev/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[TailwindCSS](https://tailwindcss.com/)**
+- **[TailwindCSS Variants](https://www.tailwind-variants.org/)**
+- **[React Router DOM](https://reactrouter.com/)**
+- **[Lucide React](https://lucide.dev/)**
+- **[React Day Picker](https://daypicker.dev/)**
+- **[date-fns](https://date-fns.org/)**
+- **[Axios](https://axios-http.com/ptbr/docs/intro)**
+
+
+## 👤 Author
+
+**Carlos Oliveira**
+
+- LinkedIn: [@CarlosOliveira](https://www.linkedin.com/in/carlos-oliveira-ab93941a1/)
+
+---
+
+## 📝 License
+
+Copyright © 2024 [Carlos Oliveira](https://github.com/carlossroliveira).<br />
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+---
